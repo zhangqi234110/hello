@@ -26,6 +26,8 @@ public class UserController {
     @RequestMapping("/hello2")
     public Map se(){
 
+        System.out.println("从分支来了!");
+
         Jedis jedis = new Jedis("localhost");
         String a="sad aa";
         jedis.set("aa",a);
