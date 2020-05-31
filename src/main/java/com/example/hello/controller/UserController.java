@@ -74,7 +74,7 @@ public class UserController {
         objectObjectHashMap.put("cookie",cookie);
         objectObjectHashMap.put("Cookie1",cookie1);
         objectObjectHashMap.put("Cookie2",cookie2);
-        objectObjectHashMap.put("sessionid",id);
+        objectObjectHashMap.put("Jsessionid",id);
 
 
 
