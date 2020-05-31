@@ -26,7 +26,7 @@ public class UserController {
     @RequestMapping("/hello2")
     public Map se(){
 
-        System.out.println("从分支来了!");
+
 
         Jedis jedis = new Jedis("localhost");
         String a="sad aa";
@@ -74,7 +74,7 @@ public class UserController {
         objectObjectHashMap.put("cookie",cookie);
         objectObjectHashMap.put("Cookie1",cookie1);
         objectObjectHashMap.put("Cookie2",cookie2);
-        objectObjectHashMap.put("Jsessionid",id);
+        objectObjectHashMap.put("sessionid",id);
 
 
 
