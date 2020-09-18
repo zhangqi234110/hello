@@ -40,7 +40,7 @@ public class UserController {
         objectObjectHashMap.put("me",a);
         System.out.println(all.get(1).getName());
         System.out.println(all.get(2).getName());
-            throw new RuntimeException("未知错误");
+            throw new RuntimeException("未知错误啊啊啊啊");
 
            // return objectObjectHashMap;
 
